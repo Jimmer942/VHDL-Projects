@@ -1,18 +1,3 @@
-----------------------------------------------------------------------------------
--- Compañía:            Estado Finito
--- Ingeniero:           Carlos Ramos
--- 
--- Fecha de creación:   2012/10/26 09:35:12
--- Nombre del módulo:   clk1Hz - Behavioral
--- Descripción: 
---   Divisor de frecuencia implementado con contadores. Este divisor de frecuencia
---   reduce la escala en un factor de 25000000 veces. En este caso, la frecuencia se
---   reduce de 50MHz de entrada a 1Hz a la salida.
---
--- Revisión:
---   Revisión 0.01 - Archivo creado.
-----------------------------------------------------------------------------------
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
