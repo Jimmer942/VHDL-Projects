@@ -1,18 +1,3 @@
-----------------------------------------------------------------------------------
--- Compañía:            Estado Finito
--- Ingeniero:           Carlos Ramos
--- 
--- Fecha de creación:   2012/10/26 12:26:23
--- Nombre del módulo:   contador_reloj - Behavioral
--- Descripción: 
---   Contador para el reloj. Se encarga de recibir una señal de 1/60Hz (1 minuto)
---   y contar el tiempo para mostrar la hora y los minutos.
---   A la salida, entrega los cuatro dígitos correspondientes a HH:mm.
---
--- Revisión:
---   Revisión 0.01 - Archivo creado.
-----------------------------------------------------------------------------------
-
 library IEEE;
 use IEEE.NUMERIC_STD.ALL;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -20,7 +5,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity contador_reloj is
 	PORT (
 		clk  : IN  STD_LOGIC; --Reloj de 1Hz.
-		reset: IN  STD_LOGIC; --Señal de reset.
+		reset: IN  STD_LOGIC; --SeÃ±al de reset.
 		H1   : OUT STD_LOGIC_VECTOR(2 DOWNTO 0); --Segundo digito de la hora.
 		H0   : OUT STD_LOGIC_VECTOR(3 DOWNTO 0); --Primer digito de la hora.
 		M1   : OUT STD_LOGIC_VECTOR(2 DOWNTO 0); --Segundo digito de los minutos.
@@ -63,7 +48,7 @@ begin
 		end if;
 	end process;
 	
-	--Asignación de señales.
+	--AsignaciÃ³n de seÃ±ales.
 	H1 <= STD_LOGIC_VECTOR(hh1);
 	H0 <= STD_LOGIC_VECTOR(hh0);
 	M1 <= STD_LOGIC_VECTOR(mm1);
