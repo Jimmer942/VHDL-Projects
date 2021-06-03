@@ -1,17 +1,3 @@
-----------------------------------------------------------------------------------
--- Compañía:            Estado Finito
--- Ingeniero:           Carlos Ramos
--- 
--- Fecha de creación:   2012/10/26 21:01:42
--- Nombre del módulo:   reloj - Behavioral
--- Descripción: 
---   Une el contador del reloj con los divisores de frecuencia y el controlador 
---   de siete segmentos completo para mostrar la hora en una tarjeta Basys2.
---
--- Revisión:
---   Revisión 0.01 - Archivo creado.
-----------------------------------------------------------------------------------
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -67,7 +53,7 @@ begin
 	cnt_i: contador_reloj PORT MAP(clk_out, reset, HH1, HH0, MM1, MM0);
 	seg_i: siete_segmentos_completo PORT MAP(clk, reset, pMM0, pMM1, pHH0, pHH1, salida, MUX);
 	
-	--Padding de las señales del contador para siete segmentos.
+	--Padding de las seÃ±ales del contador para siete segmentos.
 	pHH1 <= "000" & HH1;
 	pHH0 <= "00"  & HH0;
 	pMM1 <= "000" & MM1;
