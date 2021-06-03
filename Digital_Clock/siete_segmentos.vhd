@@ -1,17 +1,3 @@
-----------------------------------------------------------------------------------
--- Compañía:            Estado Finito
--- Ingeniero:           Carlos Ramos
--- 
--- Fecha de creación:   2012/07/29 12:56:33
--- Nombre del módulo:   siete_segmentos - Behavioral 
--- Descripción: 
---   Decodificador de seis bits a siete segmentos. Se incluyen los números del 0
---   al 9, las letras de la A a la Z, y otros signos de puntuación utilizados.
---
--- Revisión:
---   Revisión 0.01 - Archivo creado.
-----------------------------------------------------------------------------------
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
