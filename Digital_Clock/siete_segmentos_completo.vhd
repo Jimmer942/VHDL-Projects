@@ -1,19 +1,3 @@
-----------------------------------------------------------------------------------
--- Compañía:            Estado Finito
--- Ingeniero:           Carlos Ramos
--- 
--- Fecha de creación:   2012/07/30 20:12:36
--- Nombre del módulo:   siete_segmentos_completo - Behavioral
--- Descripción: 
---   Se encarga de unir el decodificador de seis bits a siete segmentos, el 
---   divisor de frecuencia de 50MHz a 200Hz y el multiplexor para visualizadores
---   con el fin de mostrar un digíto diferente en cada uno de los visualizadores
---   de la tarjeta Basys2, a una frecuencia de 200Hz.
---
--- Revisión:
---   Revisión 0.01 - Archivo creado.
-----------------------------------------------------------------------------------
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
  
