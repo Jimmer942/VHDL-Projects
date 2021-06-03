@@ -1,20 +1,3 @@
-----------------------------------------------------------------------------------
--- Compañía:            Estado Finito
--- Ingeniero:           Carlos Ramos
--- 
--- Fecha de creación:   2012/07/30 12:15:56
--- Nombre del módulo:   siete_segmentos_mux - Behavioral
--- Descripción: 
---   Multiplexor (de frecuencia) para mostrar un valor diferente en cada uno de
---   los visualizadores de siete segmentos. Esto se logra activando solamente un
---   visualizador a la vez y mandar el dato correspondiente. Si la frecuencia es
---   mayor a 16Hz por visualizador, no habrá parpadeo perceptible.
---   Diseñado para Basys2 de Digilent.
---
--- Revisión:
---   Revisión 0.01 - Archivo creado.
-----------------------------------------------------------------------------------
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
  
