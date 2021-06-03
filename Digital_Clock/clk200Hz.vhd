@@ -1,18 +1,3 @@
-----------------------------------------------------------------------------------
--- Compañía:            Estado Finito
--- Ingeniero:           Carlos Ramos
--- 
--- Fecha de creación:   2012/07/26 08:23:31
--- Nombre del módulo:   clk200Hz - Behavioral
--- Descripción: 
---   Divisor de frecuencia implementado con contadores. Este divisor de frecuencia
---   reduce la escala en un factor de 125000 veces. En este caso, la frecuencia se
---   reduce de 50MHz de entrada a 200Hz a la salida.
---
--- Revisión:
---   Revisión 0.01 - Archivo creado.
-----------------------------------------------------------------------------------
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
  
